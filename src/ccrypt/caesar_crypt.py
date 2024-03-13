@@ -8,7 +8,7 @@ def caesar_encrypt(text, shift):
                     shift_amount = (shift + 1) % 26
                 else:
                     shift_amount = (shift - 1) % 26
-                    
+
             char_code = ord(char) + shift_amount
 
             if char.isupper():
@@ -39,3 +39,9 @@ def caesar_encrypt(text, shift):
 
 def caesar_decrypt(text, shift):
     return caesar_encrypt(text, -shift)
+
+def verify_crypt(pre_encrpted_text, post_decrypted_text):
+    if(pre_encrpted_text == post_decrypted_text):
+        return True
+    else:
+        return False

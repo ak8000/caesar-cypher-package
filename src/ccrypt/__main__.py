@@ -9,3 +9,5 @@ if __name__ == "__main__":
 
     decrypted = caesar.caesar_decrypt(encrypted, shift_amount)
     print(f"Decrypted: {decrypted}")
+
+    print(caesar.verify_crypt(original_text, decrypted))
