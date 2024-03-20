@@ -22,6 +22,18 @@ def caesar_encrypt(text, shift):
     return encrypted_text
 
 def caesar_decrypt(text, shift):
+    """
+    Decrypts a given text using the Caesar cipher, extended to include numbers.
+
+    This function decrypts by applying the inverse of the encryption shift. 
+    Given the cyclical nature of the cipher, decrypting is equivalent to encrypting
+    with a shift of -shift.
+
+    :param text: The input string to decrypt.
+    :param shift: The number of positions the characters were shifted to encrypt.
+    :return: The decrypted string.
+    """
+        
     return caesar_encrypt(text, -shift)
 
 
@@ -39,8 +51,13 @@ def brute_force_decrypt(encrypted_text):
     return possible_messages
 
 
-def verify_crypt(pre_encrpted_text, post_decrypted_text):
-    if(pre_encrpted_text == post_decrypted_text):
-        return True
-    else:
-        return False
+def verify_encryption_decryption(original_text, decrypted_text):
+    """
+    Verifies that the original plaintext matches the decrypted text,
+    indicating the encryption and decryption processes are inverses of each other.
+
+    :param original_text: The original plaintext before encryption.
+    :param decrypted_text: The text after being encrypted and then decrypted.
+    :return: True if the original and decrypted texts match, False otherwise.
+    """
+    return original_text == decrypted_text
