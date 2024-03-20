@@ -25,6 +25,20 @@ def caesar_decrypt(text, shift):
     return caesar_encrypt(text, -shift)
 
 
+def brute_force_decrypt(encrypted_text):
+    """
+    Attempts to decrypt an encrypted message by trying all possible shifts.
+
+    :param encrypted_text: The encrypted message to decrypt.
+    :return: A dictionary of all possible shifts and their corresponding decrypted messages.
+    """
+    possible_messages = {}
+    for shift in range(26):
+        decrypted_text = caesar_decrypt(encrypted_text, shift)
+        possible_messages[shift] = decrypted_text
+    return possible_messages
+
+
 def verify_crypt(pre_encrpted_text, post_decrypted_text):
     if(pre_encrpted_text == post_decrypted_text):
         return True
