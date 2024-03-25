@@ -1,4 +1,3 @@
-\ Insert badge
 ![GitHub Release](https://img.shields.io/github/v/release/software-students-spring2024/3-python-package-exercise-ja-ia)
 
 
@@ -7,7 +6,6 @@
 An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
 
 # Project Description
-/ add detail if necessary, but the example packages also had 1 sentence descriptions
 Our project is a Caesar cipher package inteded to help encrypt messages for users.
 
 # Documentation
