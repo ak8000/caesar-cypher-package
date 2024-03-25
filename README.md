@@ -8,18 +8,31 @@ An exercise to create a Python package, build it, test it, distribute it, and us
 
 # Project Description
 / add detail if necessary, but the example packages also had 1 sentence descriptions
-Our project is a Caesar Cypher package inteded to help encrypt messages for users.
+Our project is a Caesar cipher package inteded to help encrypt messages for users.
 
 # Documentation
 
 export PYTHONPATH="/your-path/src:$PYTHONPATH"
 
-# Usage
-
 # Installation
 
-`` pip install ccrypt `` or `` pip3 install ccrypt ``
+To install, just use pip to install from PyPI:
 
+`` pip install ccrypt ``
+or
+`` pip3 install ccrypt ``
+
+# Usage
+
+Upon installation, just call *ccrypt* the program from the command line.
+
+Once the program is called, first type and enter whether you would like to (e)ncrypt, (d)ecrypt, or (b)rute-force (note that only an encryption up to 26 is allowed).
+
+If encrypt, then simply enter the text you would like to encrypt as the first parameter and the amount you'd like each character shifted as the second parameter. The program will then output the Caesar cipher.
+
+If decrypt, then simply enter the text you would like to know as the first parameter and the amount you know each character shifted as the second parameter. The program will then output the original text.
+
+If brute-force, then the program will iterate through all of the possible shifts and output all of the results.
 
 # Contributors
 
