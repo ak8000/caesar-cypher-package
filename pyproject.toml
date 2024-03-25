@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "A caesar crypt package"
 authors = [
     {name = "Adam Schwartz", email = "ags613@nyu.edu"},
+    {name = "Isaac Kwon", email = "iok206@nyu.edu"}
 ]
 dynamic = ["version"]
 
