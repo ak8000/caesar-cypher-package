@@ -158,7 +158,7 @@
                 "sha256:30962b96c0c223483ed6cc7280e7f0199feb01a0e40cfae4d4450fc6fab1f570",
                 "sha256:b78938b926ee8d5f020fc4772d487045805a55ddbad2ecf21c6d60938dc7fcd2"
             ],
-            "markers": "python_version >= '3.8'",
+            "markers": "python_full_version < '3.10.2'",
             "version": "==7.1.0"
         },
         "iniconfig": {
