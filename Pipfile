@@ -7,9 +7,8 @@ name = "pypi"
 pytest = "*"
 build = "*"
 twine = "*"
-ccrypt = {editable = true, path = "."}
 
 [dev-packages]
 
 [requires]
-python_version = "3"
+python_version = "3.9"
