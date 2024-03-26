@@ -8,6 +8,7 @@ def test_caesar_encrypt():
     assert caesar_encrypt("hello", 3) == "khoor", "Test case failed: caesar_encrypt('hello', 3)"
     assert caesar_encrypt("abcXYZ", 5) == "fghCDE", "Test case failed: caesar_encrypt('abcXYZ', 5)"
     assert caesar_encrypt("123", 3) == "456", "Test case failed: caesar_encrypt('123', 3)"
+    assert caesar_encrypt("$%Hello, World!", 18) == "$%Zwddg, Ogjdv!", "Test case failed: caesar_encrypt('$%Hello, World!', 18)"
     print("All caesar_encrypt tests passed.")
 
 def test_caesar_decrypt():
@@ -16,6 +17,7 @@ def test_caesar_decrypt():
     assert caesar_decrypt("khoor", 3) == "hello", "Test case failed: caesar_decrypt('khoor', 3)"
     assert caesar_decrypt("fghCDE", 5) == "abcXYZ", "Test case failed: caesar_decrypt('fghCDE', 5)"
     assert caesar_decrypt("456", 3) == "123", "Test case failed: caesar_decrypt('456', 3)"
+    assert caesar_decrypt("$%Zwddg, Ogjdv!", 18) == "$%Hello, World!", "Test case failed: caesar_decrypt('$%Zwddg, Ogjdv!', 18)"
     print("All caesar_decrypt tests passed.")
 
 def test_brute_force_decrypt():
