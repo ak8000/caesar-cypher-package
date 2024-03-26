@@ -2,7 +2,7 @@
 )
 
 # Project Description
-Our project is a Caesar cipher package inteded to help encrypt messages for users.
+Our project is a Caesar cipher package intended to help encrypt messages for users.
 
 # Documentation
 
