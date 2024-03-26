@@ -40,9 +40,6 @@ indicating the encryption and decryption processes are inverses of each other.
     :param decrypted_text: The text after being encrypted and then decrypted.
     :return: True if the original and decrypted texts match, False otherwise.
 
-export PYTHONPATH="/your-path/src:$PYTHONPATH"
-
-
 # Installation
 
 To install, just use pip to install from PyPI:
