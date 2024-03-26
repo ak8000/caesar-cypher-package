@@ -40,16 +40,15 @@ indicating the encryption and decryption processes are inverses of each other.
     :param decrypted_text: The text after being encrypted and then decrypted.
     :return: True if the original and decrypted texts match, False otherwise.
 
-export PYTHONPATH="/your-path/src:$PYTHONPATH"
+
 
 
 # Installation
 
 To install, just use pip to install from PyPI:
 
-`` pip install ccrypt ``
-or
-`` pip3 install ccrypt ``
+`` pip install -i https://test.pypi.org/simple/ ccrypt==0.1.2 ``
+
 
 To import the code, here's the basic program we created with it: [main.py](https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia/blob/main/src/ccrypt/__main__.py)
 
