@@ -1,5 +1,4 @@
-![Most recent build status](https://img.shields.io/github/actions/workflow/status/software-students-spring2024/3-python-package-exercise-ja-ia/event-logger.yml
-)
+![Most recent build status](https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia/actions/workflows/event-logger.yml)
 
 # Project Description
 Our project is a Caesar cipher package intended to help encrypt messages for users.
