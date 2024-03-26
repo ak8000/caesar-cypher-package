@@ -1,5 +1,4 @@
-![Most recent build status](https://img.shields.io/github/actions/workflow/status/software-students-spring2024/3-python-package-exercise-ja-ia/event-logger.yml
-)
+![Python build & test](https://github.com/software-students-spring2024/3-python-package-exercise-team-fizzbuzz-1/actions/workflows/build.yaml/badge.svg)
 
 # Project Description
 Our project is a Caesar cipher package intended to help encrypt messages for users.
@@ -41,13 +40,12 @@ indicating the encryption and decryption processes are inverses of each other.
     :return: True if the original and decrypted texts match, False otherwise.
 
 
-
-
 # Installation
 
 To install, just use pip to install from PyPI:
 
 `` pip install -i https://test.pypi.org/simple/ ccrypt==0.1.2 ``
+
 
 
 To import the code, here's the basic program we created with it: [main.py](https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia/blob/main/src/ccrypt/__main__.py)
