@@ -1,4 +1,4 @@
-![Python build & test](https://github.com/software-students-spring2024/3-python-package-exercise-team-fizzbuzz-1/actions/workflows/build.yaml/badge.svg)
+![Python build & test](https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia/actions/workflows/event-logger.yml)
 
 # Project Description
 Our project is a Caesar cipher package intended to help encrypt messages for users.
