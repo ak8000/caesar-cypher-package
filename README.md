@@ -72,7 +72,10 @@ or
 
 ## Testing
 
+We've also included some unit tests as well. Simply run the following command in the command shell:
+``python -m pytest`` or ``python3 -m pytest``
 
+These are basic unit tests, but they should tell you if something is wrong with your package.
 
 # Usage
 
