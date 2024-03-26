@@ -43,9 +43,9 @@ indicating the encryption and decryption processes are inverses of each other.
 
 To install, just use pip to install from PyPI:
 
-`` pip install ccrypt ``
+``pip install -i https://test.pypi.org/simple/ ccrypt==0.1.1``
 or
-`` pip3 install ccrypt ``
+`` or pip install -i https://test.pypi.org/simple/ ccrypt==0.1.1 ``
 
 To import the code, here's the basic program we created with it: [main.py](https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia/blob/main/src/ccrypt/__main__.py)
 
