@@ -44,7 +44,7 @@ indicating the encryption and decryption processes are inverses of each other.
 
 To install, just use pip to install from PyPI:
 
-`` pip install -i https://test.pypi.org/simple/ ccrypt==0.1.2 ``
+`` pip install -i https://test.pypi.org/simple/ nyu_caesar_crypt_mar24==0.1.6 ``
 
 
 

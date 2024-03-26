@@ -1,5 +1,5 @@
 import pytest
-from src.cccrypt.caesar_crypt import caesar_encrypt, caesar_decrypt, brute_force_decrypt, verify_encryption_decryption
+from src.nyu_caesar_crypt_mar24.caesar_crypt import caesar_encrypt, caesar_decrypt, brute_force_decrypt, verify_encryption_decryption
 
 def test_caesar_encrypt():
     # Test cases: encrypt function
