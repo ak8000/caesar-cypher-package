@@ -4,15 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ccrypt"
-version = "0.1.0"
+version = "0.1.2"
 description = "A caesar crypt package"
 authors = [
-    {name = "Adam Schwartz", email = "ags613@nyu.edu"},
+    {name = "Janet Pan", email = "jp6024@nyu.edu"},
     {name = "Isaac Kwon", email = "iok206@nyu.edu"},
     {name = "Alexander Kondratiuk", email = "ak8000@nyu.edu"},
-    {name = "Janet Pan", email = "jp6024@nyu.edu"}
+    {name = "Adam Schwartz", email = "ags613@nyu.edu"},
 ]
-dynamic = ["version"]
+
 
 readme = "README.md"
 

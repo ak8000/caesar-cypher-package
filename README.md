@@ -1,7 +1,7 @@
 ![Python build & test](https://github.com/software-students-spring2024/3-python-package-exercise-team-fizzbuzz-1/actions/workflows/build.yaml/badge.svg)
 
 # Project Description
-Our project is a Caesar cipher package inteded to help encrypt messages for users.
+Our project is a Caesar cipher package intended to help encrypt messages for users.
 
 # Documentation
 
@@ -39,13 +39,14 @@ indicating the encryption and decryption processes are inverses of each other.
     :param decrypted_text: The text after being encrypted and then decrypted.
     :return: True if the original and decrypted texts match, False otherwise.
 
+
 # Installation
 
 To install, just use pip to install from PyPI:
 
-``pip install -i https://test.pypi.org/simple/ ccrypt==0.1.1``
-or
-`` or pip install -i https://test.pypi.org/simple/ ccrypt==0.1.1 ``
+`` pip install -i https://test.pypi.org/simple/ ccrypt==0.1.2 ``
+
+
 
 To import the code, here's the basic program we created with it: [main.py](https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia/blob/main/src/ccrypt/__main__.py)
 
