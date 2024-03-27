@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nyuCaesarCrypt"
-version = "0.1.10"
+version = "0.1.11"
 description = "A caesar crypt package"
 authors = [
     {name = "Janet Pan", email = "jp6024@nyu.edu"},
