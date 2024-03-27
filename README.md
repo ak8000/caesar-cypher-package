@@ -48,7 +48,7 @@ To install, just use pip to install from PyPI:
 
 
 
-To import the code, here's the basic program we created with it: [main.py](https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia/blob/main/src/ccrypt/__main__.py)
+To import the code, here's the basic program we created with it: [main.py](https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia/blob/main/src/nyu_caesar_crypt_mar24/__main__.py)
 
 If you'd like to contribute to our project you'll likely need to prepare a few more things:
 
