@@ -44,7 +44,7 @@ indicating the encryption and decryption processes are inverses of each other.
 
 To install, just use pip to install from PyPI:
 
-`` pip install -i https://pypi.org/project/nyu_caesar_crypt_mar24/0.1.7/ ``
+`` pip install -i https://pypi.org/project/nyu_caesar_crypt_mar24/0.1.9/ ``
 
 
 
@@ -77,7 +77,7 @@ These are basic unit tests, but they should tell you if something is wrong with 
 # Usage
 
 Upon installation, just call *ccrypt* the program from the command line:
-`` python -m ccrypt `` or ``python 3 ccrypt ``
+`` python -m nyu_caesar_crypt_mar24 `` or ``python 3 nyu_caesar_crypt_mar24 ``
 
 Once the program is called, first type and enter whether you would like to (e)ncrypt, (d)ecrypt, or (b)rute-force (note that only an encryption up to 26 is allowed).
 
@@ -95,4 +95,4 @@ If brute-force, then the program will iterate through all of the possible shifts
 - [Adam Schwartz](https://github.com/aschwartz01)
 
 # PyPI page
-- [Caesar Crypt](https://pypi.org/project/nyu-caesar-crypt-mar24/0.1.7)
+- [Caesar Crypt](https://pypi.org/project/nyu-caesar-crypt-mar24/0.1.9)
