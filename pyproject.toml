@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nyu_caesar_crypt_mar24"
-version = "0.1.9"
+name = "nyuCaesarCryptMar24"
+version = "0.1.10"
 description = "A caesar crypt package"
 authors = [
     {name = "Janet Pan", email = "jp6024@nyu.edu"},
@@ -32,4 +32,4 @@ dev = ["pytest"]
 "Bug Tracker" = "https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia/issues"
 
 [project.scripts]
-nyu_caesar_crypt_mar24 = "nyu_caesar_crypt_mar24.__main__:main"
+nyuCaesarCryptMar24 = "nyuCaesarCryptMar24.__main__:main"
