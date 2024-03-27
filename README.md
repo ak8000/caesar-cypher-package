@@ -44,7 +44,7 @@ indicating the encryption and decryption processes are inverses of each other.
 
 To install, just use pip to install from PyPI:
 
-`` pip install -i https://test.pypi.org/simple/ nyu_caesar_crypt_mar24==0.1.6 ``
+`` pip install -i https://test.pypi.org/simple/ nyu_caesar_crypt_mar24==0.1.7 ``
 
 
 
@@ -95,4 +95,4 @@ If brute-force, then the program will iterate through all of the possible shifts
 - [Adam Schwartz](https://github.com/aschwartz01)
 
 # PyPI page
-- [Caesar Crypt](https://pypi.org/project/nyu-caesar-crypt-mar24/0.1.6)
+- [Caesar Crypt](https://pypi.org/project/nyu-caesar-crypt-mar24/0.1.7)
