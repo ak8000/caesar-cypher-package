@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nyuCaesarCryptMar24"
+name = "nyuCaesarCrypt"
 version = "0.1.10"
 description = "A caesar crypt package"
 authors = [
@@ -32,4 +32,4 @@ dev = ["pytest"]
 "Bug Tracker" = "https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia/issues"
 
 [project.scripts]
-nyuCaesarCryptMar24 = "nyuCaesarCryptMar24.__main__:main"
+nyuCaesarCrypt = "nyuCaesarCrypt.__main__:main"
