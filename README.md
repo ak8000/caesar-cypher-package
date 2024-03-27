@@ -44,11 +44,11 @@ indicating the encryption and decryption processes are inverses of each other.
 
 To install, just use pip to install from PyPI:
 
-`` pip install -i https://test.pypi.org/simple/ nyu_caesar_crypt_mar24==0.1.6 ``
+`` pip install https://pypi.org/project/nyuCaesarCrypt/0.1.10/ ``
 
 
 
-To import the code, here's the basic program we created with it: [main.py](https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia/blob/main/src/nyu_caesar_crypt_mar24/__main__.py)
+To import the code, here's the basic program we created with it: [main.py](https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia/blob/main/src/nyuCaesarCrypt/__main__.py)
 
 If you'd like to contribute to our project you'll likely need to prepare a few more things:
 
@@ -77,7 +77,7 @@ These are basic unit tests, but they should tell you if something is wrong with 
 # Usage
 
 Upon installation, just call *ccrypt* the program from the command line:
-`` python -m ccrypt `` or ``python 3 ccrypt ``
+`` python -m nyuCaesarCrypt `` or ``python 3 nyuCaesarCrypt ``
 
 Once the program is called, first type and enter whether you would like to (e)ncrypt, (d)ecrypt, or (b)rute-force (note that only an encryption up to 26 is allowed).
 
@@ -95,4 +95,4 @@ If brute-force, then the program will iterate through all of the possible shifts
 - [Adam Schwartz](https://github.com/aschwartz01)
 
 # PyPI page
-- [Caesar Crypt](https://pypi.org/project/nyu-caesar-crypt-mar24/0.1.6)
+- [Caesar Crypt](https://pypi.org/project/nyuCaesarCrypt/0.1.10)
