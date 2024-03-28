@@ -1,7 +1,7 @@
 ![Python build & test](https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia/actions/workflows/event-logger.yml/badge.svg)
 
 # Project Description
-Our project is a Caesar cipher package intended to help encrypt messages for users.
+This is Caesar cipher package intended to help encrypt messages for users. *Not Recommended to be used for sensitive inforamtion*
 
 # Documentation
 
@@ -46,9 +46,7 @@ To install, just use pip to install from PyPI:
 
 `` pip install nyuCaesarCrypt==0.1.11 ``
 
-
-
-To import the code, here's the basic program we created with it: [main.py](https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia/blob/main/src/nyuCaesarCrypt/__main__.py)
+To import the code, here's the basic program we created with it: [main.py](https://github.com/ak8000/casesar-cypher-package/blob/main/src/nyuCaesarCrypt/__main__.py)
 
 If you'd like to contribute to our project you'll likely need to prepare a few more things:
 
