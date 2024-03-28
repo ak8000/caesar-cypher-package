@@ -46,7 +46,7 @@ To install, just use pip to install from PyPI:
 
 `` pip install nyuCaesarCrypt==0.1.11 ``
 
-To import the code, here's the basic program we created with it: [main.py](https://github.com/caesar-cypher-package/src/nyuCaesarCrypt/__main__.py)
+To import the code, here's the basic program we created with it: [main.py](https://github.com/ak8000/caesar-cypher-package/blob/main/src/nyuCaesarCrypt/__main__.py)
 
 If you'd like to contribute to our project you'll likely need to prepare a few more things:
 
